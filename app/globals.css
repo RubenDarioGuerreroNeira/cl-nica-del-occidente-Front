@@ -60,4 +60,10 @@ body {
   .btn-outline {
     @apply border border-primary text-primary px-6 py-2 rounded-md hover:bg-primary hover:text-white transition-all duration-300;
   }
+
+  :root {
+    --radius: 0.5rem;
+    --font-sans: "Your-Sans-Font", system-ui, sans-serif;
+    --font-heading: "Your-Heading-Font", system-ui, sans-serif;
+  }
 }

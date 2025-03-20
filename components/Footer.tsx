@@ -89,16 +89,16 @@ const Footer = () => {
 
           {/* Medical Departments */}
           <motion.div variants={itemVariants}>
-            <h3 className="text-xl font-semibold mb-4 border-b border-primary pb-2">Fachbereiche</h3>
+            <h3 className="text-xl font-semibold mb-4 border-b border-primary pb-2">Especialidades</h3>
             <ul className="space-y-2">
               <li>
                 <Link href="/innere-medizin" className="hover:text-primary transition-colors">
-                  Innere Medizin
+                  Oncologicas
                 </Link>
               </li>
               <li>
                 <Link href="/kardiologie" className="hover:text-primary transition-colors">
-                  Kardiologie
+                  Quirurgicas
                 </Link>
               </li>
               <li>
@@ -116,7 +116,7 @@ const Footer = () => {
 
           {/* Social Media & Newsletter */}
           <motion.div variants={itemVariants}>
-            <h3 className="text-xl font-semibold mb-4 border-b border-primary pb-2">Folgen Sie uns</h3>
+            <h3 className="text-xl font-semibold mb-4 border-b border-primary pb-2">Siguenos</h3>
             <div className="flex space-x-4 mb-6">
               <Link href="#" className="hover:text-primary transition-colors">
                 <Facebook className="w-6 h-6" />
@@ -150,13 +150,13 @@ const Footer = () => {
       <div className="bg-secondary-dark py-4 border-t border-gray-700">
         <div className="container mx-auto px-4">
           <div className="flex flex-col md:flex-row justify-between items-center">
-            <p className="text-sm">© {new Date().getFullYear()} Krankenhaus St. Josef. Alle Rechte vorbehalten.</p>
+            <p className="text-sm">© {new Date().getFullYear()}Clínica del Occidente.</p>
             <div className="flex space-x-4 mt-4 md:mt-0">
               <Link href="/datenschutz" className="text-sm hover:text-primary transition-colors">
-                Datenschutz
+                Rubén
               </Link>
               <Link href="/impressum" className="text-sm hover:text-primary transition-colors">
-                Impressum
+                Guerrero
               </Link>
             </div>
           </div>
